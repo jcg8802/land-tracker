@@ -19,7 +19,15 @@
       "notes": "23,237\u00b1 total acres (13,757\u00b1 deeded + BLM/State/private leases). Native grass, regenerative grazing, diverse wildlife. One of the largest contiguous ranches on the MT market.",
       "id": "1",
       "price_per_acre": 989.8,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "2": {
       "name": "Hoback River Homestead",
@@ -39,7 +47,31 @@
       "notes": "Family-owned since 1888, first sale in ~140 years. Borders Bridger-Teton Nat'l Forest ~6 miles. ~700 irrigated acres, 30-40 min from Jackson Hole.",
       "id": "2",
       "price_per_acre": 28855.48,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udf32",
+          "label": "Timber/forest"
+        },
+        {
+          "icon": "\ud83d\udca6",
+          "label": "Irrigation"
+        },
+        {
+          "icon": "\ud83c\udfa3",
+          "label": "Fishing"
+        },
+        {
+          "icon": "\ud83d\udc8e",
+          "label": "Mineral rights"
+        }
+      ],
+      "image_url": "https://hallhall.com/wp/wp-content/uploads/2026/07/a09Nu00000GIoTN.jpg",
+      "image_is_real": true
     },
     "3": {
       "name": "Buck Gulch Ranch",
@@ -59,7 +91,19 @@
       "notes": "120+ year family livestock operation, Little Snake River Valley on WY/CO border, ~1.5 hrs from Steamboat Springs. Gentle terrain, good grazing/wildlife.",
       "id": "3",
       "price_per_acre": 1324.98,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://hallhall.com/wp/wp-content/uploads/2025/11/a09Nu000007TpMT-1.jpg",
+      "image_is_real": true
     },
     "4": {
       "name": "RC Ranch",
@@ -79,7 +123,15 @@
       "notes": "22,657\u00b1 total acres (17,223\u00b1 deeded + BLM/State lease), 44 mi NW of Laramie. Rated for 850+ cow-calf pairs.",
       "id": "4",
       "price_per_acre": 580.62,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83d\udca6",
+          "label": "Irrigation"
+        }
+      ],
+      "image_url": "https://hallhall.com/wp/wp-content/uploads/2026/10/a09Nu00000KzsHj.jpg",
+      "image_is_real": true
     },
     "5": {
       "name": "Harless Ranch",
@@ -99,7 +151,15 @@
       "notes": "~11,630 total acres (4,374\u00b1 deeded + BLM/State lease) in south-central NM. Year-round cattle allotment and wildlife habitat.",
       "id": "5",
       "price_per_acre": 257.95,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "6": {
       "name": "Double V Ranch",
@@ -119,7 +179,27 @@
       "notes": "Largest ranch currently for sale in New Mexico (73,600 acres). 4BR/4BA residence, guest cottages, historic saloon. Up to ~1,200 cow-calf pairs; pronghorn/mule deer/waterfowl hunting.",
       "id": "6",
       "price_per_acre": 478.26,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfe0",
+          "label": "House/lodge"
+        },
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "7": {
       "name": "Rudio Mountain Ranch",
@@ -139,7 +219,23 @@
       "notes": "18,643\u00b1 deeded-acre secured timber/hunting ranch, dense timber stands, no-trespassing private block near Dayville/Kimberly, OR.",
       "id": "7",
       "price_per_acre": 1877.38,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udf32",
+          "label": "Timber/forest"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "8": {
       "name": "Horseshoe Lake River Ranch",
@@ -159,7 +255,27 @@
       "notes": "3,252 acres pairing irrigated river/lake meadows (~175 ac, 60 hay) with timbered rangeland leased for up to 700 head seasonally. Notable Sockeye/Chinook salmon fishing.",
       "id": "8",
       "price_per_acre": 1151.6,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83d\udca7",
+          "label": "Lake"
+        },
+        {
+          "icon": "\ud83d\udca6",
+          "label": "Irrigation"
+        },
+        {
+          "icon": "\ud83c\udfa3",
+          "label": "Fishing"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "9": {
       "name": "Pioneer Ranch",
@@ -179,7 +295,31 @@
       "notes": "1,073 acres 25 min from Park City, 9,500 sqft off-grid home, bordered by East Canyon State Park. Elk/moose/mule deer landowner tags, trout fishing.",
       "id": "9",
       "price_per_acre": 27027.03,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfe0",
+          "label": "House/lodge"
+        },
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\u26f0\ufe0f",
+          "label": "Mountain/views"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        },
+        {
+          "icon": "\ud83c\udfa3",
+          "label": "Fishing"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "10": {
       "name": "Henry's Fork Snake River Ranch",
@@ -199,7 +339,27 @@
       "notes": "1,048-acre legacy ranch near Rexburg combining world-class trout fishing, premier upland/waterfowl hunting, productive irrigated farmland.",
       "id": "10",
       "price_per_acre": 16484.26,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        },
+        {
+          "icon": "\ud83d\udca6",
+          "label": "Irrigation"
+        },
+        {
+          "icon": "\ud83c\udfa3",
+          "label": "Fishing"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "11": {
       "name": "BW Ranch",
@@ -219,7 +379,19 @@
       "notes": "Hill Country box-canyon ranch on headwaters of Myrtle Creek, 12 mi from Bandera, 42 from San Antonio. Live water, panoramic views.",
       "id": "11",
       "price_per_acre": 12895.89,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\u26f0\ufe0f",
+          "label": "Mountain/views"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "12": {
       "name": "Elm Creek Ranch",
@@ -239,7 +411,27 @@
       "notes": "Central Texas ranch with strong surface water, ranch houses, barns, working pens. Suited for ranching, hunting, or investment.",
       "id": "12",
       "price_per_acre": 3495.0,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\ud83e\udeb7",
+          "label": "Pond"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        },
+        {
+          "icon": "\ud83d\udc04",
+          "label": "Livestock infrastructure"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "13": {
       "name": "Twin Creeks Farm",
@@ -259,7 +451,19 @@
       "notes": "Productive timberland, year-round creek frontage, strong wildlife habitat near Ideal, GA.",
       "id": "13",
       "price_per_acre": 4800.0,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "14": {
       "name": "Lundy Creek Tract",
@@ -279,7 +483,31 @@
       "notes": "887\u00b1 ac planted pine + 350\u00b1 ac hardwoods near Lake Oconee, 20 min from I-20. Legacy/timber-income tract, no residence.",
       "id": "14",
       "price_per_acre": 4750.13,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfe0",
+          "label": "House/lodge"
+        },
+        {
+          "icon": "\ud83d\udca7",
+          "label": "Lake"
+        },
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\ud83e\udeb7",
+          "label": "Pond"
+        },
+        {
+          "icon": "\ud83c\udf32",
+          "label": "Timber/forest"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "15": {
       "name": "Hightower Buck and Timber",
@@ -299,7 +527,27 @@
       "notes": "1,870\u00b1 acres mixed pine/hardwoods near Franklin, GA, established food plots, strong wildlife habitat.",
       "id": "15",
       "price_per_acre": 3200.0,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\ud83e\udeb7",
+          "label": "Pond"
+        },
+        {
+          "icon": "\ud83c\udf32",
+          "label": "Timber/forest"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "16": {
       "name": "Yock River Farms (1,526-acre tract)",
@@ -319,7 +567,23 @@
       "notes": "Bottomland hardwood hunting/timber tract outside Thomastown, 840+ ac mature hardwood, 8+ mi interior roads, adjacent to Natchez Trace.",
       "id": "16",
       "price_per_acre": 2349.93,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udf32",
+          "label": "Timber/forest"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "17": {
       "name": "500 Acres in Holmes County",
@@ -339,7 +603,23 @@
       "notes": "Turnkey 500\u00b1 ac recreational retreat near Lexington, MS. 2,100 sqft lodge, caretaker home, 10 food plots, site of MS state-record buck.",
       "id": "17",
       "price_per_acre": 4200.0,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfe0",
+          "label": "House/lodge"
+        },
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\ud83e\udeb7",
+          "label": "Pond"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "18": {
       "name": "Moonshine Meadow",
@@ -359,7 +639,15 @@
       "notes": "641\u00b1 ac legacy property, pristine hardwoods, miles of creek frontage, turnkey cabins near Thomaston, easy reach of Atlanta.",
       "id": "18",
       "price_per_acre": 6630.27,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "19": {
       "name": "M Bar Tract",
@@ -379,7 +667,15 @@
       "notes": "1,675-acre highly managed timber and pasture property combining pine timber production with pastureland.",
       "id": "19",
       "price_per_acre": 2925.37,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udf32",
+          "label": "Timber/forest"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "20": {
       "name": "White River Ranch",
@@ -399,7 +695,31 @@
       "notes": "5,888.56-acre contiguous grazing operation near Chadron, supports 800-1,000 head yearlings seasonally. 4BR/2BA residence, new fencing. Seller intends 1031 exchange.",
       "id": "20",
       "price_per_acre": 1150.54,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfe0",
+          "label": "House/lodge"
+        },
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83e\udeb7",
+          "label": "Pond"
+        },
+        {
+          "icon": "\ud83d\udca6",
+          "label": "Irrigation"
+        },
+        {
+          "icon": "\ud83d\udc04",
+          "label": "Livestock infrastructure"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "21": {
       "name": "Paramount Valley Ranch",
@@ -419,7 +739,31 @@
       "notes": "Self-sustaining Sandhills cattle operation (12,979 deeded/13,617 total ac), rated 885 cow-calf pairs. 6,800-ft runway nearby. Turnkey generational ranch.",
       "id": "21",
       "price_per_acre": 1225.0,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83d\udca7",
+          "label": "Lake"
+        },
+        {
+          "icon": "\u26f2",
+          "label": "Spring"
+        },
+        {
+          "icon": "\ud83d\udca6",
+          "label": "Irrigation"
+        },
+        {
+          "icon": "\u2708\ufe0f",
+          "label": "Airstrip/airport"
+        }
+      ],
+      "image_url": "https://hallhall.com/wp/wp-content/uploads/2025/12/a09Nu00000AUWpW.jpg",
+      "image_is_real": true
     },
     "22": {
       "name": "Niobrara River Bugles and Bucks",
@@ -439,7 +783,35 @@
       "notes": "1,868.69-acre ranch in NE's Unit 7 Elk Unit, trophy elk/deer hunting. Home, cattle facilities, corrals. Seller open to land contract.",
       "id": "22",
       "price_per_acre": 2006.75,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfe0",
+          "label": "House/lodge"
+        },
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        },
+        {
+          "icon": "\ud83d\udc04",
+          "label": "Livestock infrastructure"
+        },
+        {
+          "icon": "\ud83d\udc8e",
+          "label": "Mineral rights"
+        }
+      ],
+      "image_url": "https://static2.mansionglobal.com/production/media/listing_images/22cac44fd3ee708f6f57a5b7bb64f278/small_386e10e7-2624-4a26-ae68-ad5a770c77cf.jpg",
+      "image_is_real": true
     },
     "23": {
       "name": "Oak Canyon Ranch",
@@ -459,7 +831,27 @@
       "notes": "Nationally recognized QDMA-managed trophy-whitetail ranch in Missouri River breaks. ~563 ac farmland, ~1,246 ac native pasture, two residences, barns, corrals.",
       "id": "23",
       "price_per_acre": 4143.99,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udfd5\ufe0f",
+          "label": "Creek"
+        },
+        {
+          "icon": "\ud83e\udeb7",
+          "label": "Pond"
+        },
+        {
+          "icon": "\ud83d\udc04",
+          "label": "Livestock infrastructure"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "24": {
       "name": "609 Acres, Wayne/Union Co.",
@@ -479,7 +871,10 @@
       "notes": "609\u00b1 ac southern Iowa farmland near Corydon \u2014 rare large cohesive tillable acreage block.",
       "id": "24",
       "price_per_acre": 7300.0,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [],
+      "image_url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "25": {
       "name": "369\u00b1 Acres on Eau Claire River",
@@ -499,7 +894,23 @@
       "notes": "Heavily timbered tract, extensive trail network, deer/bear/turkey/grouse, ATV access adjacent to Eisberner Memorial Forest canoe launch.",
       "id": "25",
       "price_per_acre": 3501.32,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfde\ufe0f",
+          "label": "River"
+        },
+        {
+          "icon": "\ud83c\udf32",
+          "label": "Timber/forest"
+        },
+        {
+          "icon": "\ud83c\udff9",
+          "label": "Hunting/wildlife"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     },
     "26": {
       "name": "Robbins Family Forest",
@@ -519,7 +930,27 @@
       "notes": "First sale in 30 years. Well-stocked working forest (~$1.2M standing timber), active gravel pit, recreational cabin, operational sugarhouse near Belfast, ME.",
       "id": "26",
       "price_per_acre": 1884.06,
-      "date_added": "2026-11-20"
+      "date_added": "2026-11-20",
+      "amenities": [
+        {
+          "icon": "\ud83c\udfe0",
+          "label": "House/lodge"
+        },
+        {
+          "icon": "\ud83e\udeb7",
+          "label": "Pond"
+        },
+        {
+          "icon": "\ud83c\udf32",
+          "label": "Timber/forest"
+        },
+        {
+          "icon": "\ud83c\udfed",
+          "label": "Working infrastructure"
+        }
+      ],
+      "image_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=70&auto=format&fit=crop",
+      "image_is_real": false
     }
   }
 }

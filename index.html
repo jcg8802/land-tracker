@@ -6,6 +6,9 @@
 <title>🌄 Large Land Tracts — JClaw</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
@@ -97,9 +100,29 @@ body {
 .filter-row select:hover { border-color: var(--border-light); }
 .filter-label { font-size: 12px; color: var(--text-secondary); }
 
+.basemap-toggle {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px;
+}
+.basemap-toggle button {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.basemap-toggle button.active { background: var(--accent); color: #fff; }
+
 .main {
   display: grid;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 420px 1fr;
   height: calc(100vh - 94px);
 }
 
@@ -127,7 +150,7 @@ body {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: 14px;
+  overflow: hidden;
   cursor: pointer;
   transition: all 0.15s ease;
   position: relative;
@@ -136,11 +159,50 @@ body {
 .card.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent)33; }
 .card.ce-flagged { border-color: var(--red)66; }
 
+.card-photo {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  background: var(--bg-hover);
+}
+.card-photo-wrap { position: relative; }
+.photo-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(13,17,23,0.75);
+  color: var(--text-secondary);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.photo-price-tag {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(13,17,23,0.85);
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+.photo-ppa-tag {
+  font-size: 10px;
+  color: var(--text-secondary);
+  font-weight: 400;
+  display: block;
+}
+
+.card-body { padding: 12px 14px; }
+
 .card-top {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 .card-address {
   font-size: 13px;
@@ -148,19 +210,12 @@ body {
   color: var(--text-primary);
   line-height: 1.3;
   flex: 1;
-  margin-right: 8px;
 }
-.card-price {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--gold);
-  white-space: nowrap;
-}
-.card-ppa { font-size: 11px; color: var(--text-muted); font-weight: 400; }
+.card-address small { color: var(--text-muted); font-weight: 400; display:block; margin-top:2px; }
 
 .card-meta {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
   margin-bottom: 8px;
 }
@@ -174,14 +229,31 @@ body {
 .badge-ranch { color: var(--brown); border-color: var(--brown)44; background: var(--brown)11; }
 .badge-farmland { color: var(--green); border-color: var(--green)44; background: var(--green)11; }
 .badge-timberland { color: var(--teal); border-color: var(--teal)44; background: var(--teal)11; }
-.badge-recreational { color: var(--orange); border-color: var(--orange)44; background: var(--orange)11; }
 .badge-recreational\/hunting { color: var(--orange); border-color: var(--orange)44; background: var(--orange)11; }
-.badge-mountain { color: var(--purple); border-color: var(--purple)44; background: var(--purple)11; }
 .badge-mountain\/mixed-use { color: var(--purple); border-color: var(--purple)44; background: var(--purple)11; }
 .badge-waterfront { color: var(--accent); border-color: var(--accent)44; background: var(--accent)11; }
 .badge-state { color: var(--text-secondary); border-color: var(--border); background: transparent; }
 .badge-ce { color: var(--red); border-color: var(--red)66; background: var(--red)18; font-weight: 700; }
 .badge-ce-unknown { color: var(--yellow); border-color: var(--yellow)44; background: var(--yellow)11; }
+
+.amenity-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.amenity-chip {
+  font-size: 13px;
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 7px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: default;
+}
+.amenity-chip .alabel { font-size: 10px; color: var(--text-secondary); }
 
 .card-details {
   display: flex;
@@ -246,13 +318,22 @@ body {
   border-radius: 8px;
   font-family: 'Inter', sans-serif;
   font-size: 13px;
+  padding: 0;
+  overflow: hidden;
 }
+.leaflet-popup-content { margin: 0; width: 260px !important; }
 .leaflet-popup-tip { background: var(--bg-card); }
+.popup-photo { width: 100%; height: 120px; object-fit: cover; display: block; }
+.popup-inner { padding: 10px 12px; }
 .popup-price { font-size: 15px; font-weight: 700; color: var(--gold); }
 .popup-address { font-weight: 600; margin-bottom: 4px; }
 .popup-meta { color: var(--text-secondary); font-size: 12px; margin-top: 4px; }
+.popup-amenities { display: flex; gap: 4px; margin-top: 6px; font-size: 14px; }
 .popup-link { color: var(--accent); text-decoration: none; display: inline-block; margin-top: 6px; font-size: 12px; }
 .popup-ce { color: var(--red); font-weight: 700; font-size: 12px; margin-top: 4px; }
+
+.marker-cluster-land { background: rgba(88,166,255,0.35); }
+.marker-cluster-land div { background: rgba(88,166,255,0.75); color: #fff; font-weight: 700; }
 
 @media (max-width: 768px) {
   .main { grid-template-columns: 1fr; grid-template-rows: 50vh 1fr; height: auto; }
@@ -313,6 +394,11 @@ body {
     <option value="yes">Only easement-encumbered</option>
   </select>
 
+  <span class="filter-label">Amenity:</span>
+  <select id="filter-amenity" onchange="applyFilters()">
+    <option value="">Any amenity</option>
+  </select>
+
   <span class="filter-label">Sort:</span>
   <select id="filter-sort" onchange="applyFilters()">
     <option value="newest">Newest</option>
@@ -321,6 +407,12 @@ body {
     <option value="acres-desc">Acres ↓</option>
     <option value="ppa-asc">$/acre ↑</option>
   </select>
+
+  <div class="basemap-toggle">
+    <button id="btn-dark" class="active" onclick="setBasemap('dark')">Dark</button>
+    <button id="btn-sat" onclick="setBasemap('sat')">Satellite</button>
+    <button id="btn-terrain" onclick="setBasemap('terrain')">Terrain</button>
+  </div>
 </div>
 
 <div class="main">
@@ -337,10 +429,26 @@ const map = L.map('map', {
   zoom: 4
 });
 
-L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-  attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, © OpenStreetMap contributors',
-  maxZoom: 16
-}).addTo(map);
+const basemaps = {
+  dark: L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri', maxZoom: 16
+  }),
+  sat: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri — World Imagery', maxZoom: 18
+  }),
+  terrain: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri — World Topo', maxZoom: 16
+  })
+};
+basemaps.dark.addTo(map);
+let currentBasemap = 'dark';
+
+function setBasemap(name) {
+  Object.values(basemaps).forEach(l => map.removeLayer(l));
+  basemaps[name].addTo(map);
+  currentBasemap = name;
+  ['dark','sat','terrain'].forEach(n => document.getElementById('btn-' + n).classList.toggle('active', n === name));
+}
 
 const MARKER_COLORS = {
   ranch: '#c09553',
@@ -351,19 +459,25 @@ const MARKER_COLORS = {
   waterfront: '#58a6ff'
 };
 
+const TYPE_ICON = {
+  ranch: '🤠', farmland: '🌾', timberland: '🌲',
+  'recreational/hunting': '🏹', 'mountain/mixed-use': '⛰️', waterfront: '💧'
+};
+
 function makeIcon(type, ce) {
   const color = ce ? '#f85149' : (MARKER_COLORS[type] || '#8b949e');
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="24" height="36">
-    <path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24C24 5.4 18.6 0 12 0z" fill="${color}" stroke="rgba(0,0,0,0.4)" stroke-width="1"/>
-    <circle cx="12" cy="12" r="5" fill="rgba(0,0,0,0.3)"/>
-    ${ce ? '<text x="12" y="16" font-size="9" text-anchor="middle" fill="#fff">🔒</text>' : ''}
+  const emoji = TYPE_ICON[type] || '📍';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 42" width="30" height="42">
+    <path d="M15 0C6.7 0 0 6.7 0 15c0 11.25 15 27 15 27s15-15.75 15-27C30 6.7 23.3 0 15 0z" fill="${color}" stroke="rgba(0,0,0,0.4)" stroke-width="1"/>
+    <circle cx="15" cy="15" r="11" fill="rgba(13,17,23,0.55)"/>
+    <text x="15" y="20" font-size="13" text-anchor="middle">${ce ? '🔒' : emoji}</text>
   </svg>`;
   return L.divIcon({
     html: svg,
     className: '',
-    iconSize: [24, 36],
-    iconAnchor: [12, 36],
-    popupAnchor: [0, -36]
+    iconSize: [30, 42],
+    iconAnchor: [15, 42],
+    popupAnchor: [0, -42]
   });
 }
 
@@ -390,16 +504,28 @@ function domLabel(days) {
 }
 
 function ceVal(p) {
-  // true / 'true' both allowed
   return p.conservation_easement === true || p.conservation_easement === 'true' || p.conservation_easement === 'yes';
 }
 
-let markers = {};
+function amenityChips(p, withLabel) {
+  if (!p.amenities || !p.amenities.length) return '';
+  return p.amenities.map(a => `<span class="amenity-chip" title="${a.label}">${a.icon}${withLabel ? `<span class="alabel">${a.label}</span>` : ''}</span>`).join('');
+}
+
+let markerCluster = L.markerClusterGroup({
+  maxClusterRadius: 50,
+  iconCreateFunction: function(cluster) {
+    return L.divIcon({ html: '<div><span>' + cluster.getChildCount() + '</span></div>', className: 'marker-cluster marker-cluster-land', iconSize: L.point(40, 40) });
+  }
+});
+map.addLayer(markerCluster);
+
 let activeId = null;
+let markerRefs = {};
 
 function renderAll(props) {
-  Object.values(markers).forEach(m => map.removeLayer(m));
-  markers = {};
+  markerCluster.clearLayers();
+  markerRefs = {};
 
   document.getElementById('stat-count').textContent = props.length;
   const totalAcres = props.reduce((s, p) => s + (p.acres || 0), 0);
@@ -414,49 +540,55 @@ function renderAll(props) {
 
   sidebar.innerHTML = props.map(p => `
     <div class="card ${activeId === p.id ? 'active' : ''} ${ceVal(p) ? 'ce-flagged' : ''}" id="card-${p.id}" onclick="selectProperty('${p.id}')">
-      <div class="card-top">
-        <div class="card-address">${p.name}<br><small style="color:var(--text-muted);font-weight:400">${p.location}</small></div>
-        <div style="text-align:right">
-          <div class="card-price">${formatPrice(p.price_usd)}</div>
-          <div class="card-ppa">$${Math.round(p.price_per_acre).toLocaleString()}/acre</div>
+      <div class="card-photo-wrap">
+        <img class="card-photo" src="${p.image_url}" loading="lazy" onerror="this.style.display='none'">
+        <span class="photo-badge">${p.image_is_real ? '📷 listing photo' : '🎨 representative photo'}</span>
+        <span class="photo-price-tag">${formatPrice(p.price_usd)}<span class="photo-ppa-tag">$${Math.round(p.price_per_acre).toLocaleString()}/ac</span></span>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <div class="card-address">${p.name}<small>${p.location}</small></div>
         </div>
+        ${ceVal(p) ? `<div class="ce-banner">🔒 UNDER CONSERVATION EASEMENT — ${p.conservation_easement_notes || 'development/subdivision rights restricted'}</div>` : ''}
+        <div class="card-meta">
+          <span class="${badgeClass(p.land_type)}">${TYPE_ICON[p.land_type]||''} ${p.land_type}</span>
+          ${p.conservation_easement === 'unknown' ? '<span class="badge badge-ce-unknown">⚠️ CE status unconfirmed</span>' : ''}
+        </div>
+        <div class="amenity-row">${amenityChips(p, true)}</div>
+        <div class="card-details">
+          <span>📐 ${(p.acres||0).toLocaleString()} ac</span>
+          <span>🏢 ${p.source || ''}</span>
+        </div>
+        <div class="card-footer">
+          <div class="days-on-market ${domClass(p.days_on_market)}">${domLabel(p.days_on_market)}</div>
+          <a href="${p.url}" target="_blank" class="btn-link" onclick="event.stopPropagation()">View →</a>
+        </div>
+        ${p.notes ? `<div class="card-notes">${p.notes}</div>` : ''}
       </div>
-      ${ceVal(p) ? `<div class="ce-banner">🔒 UNDER CONSERVATION EASEMENT — ${p.conservation_easement_notes || 'development/subdivision rights restricted'}</div>` : ''}
-      <div class="card-meta">
-        <span class="${badgeClass(p.land_type)}">${p.land_type}</span>
-        <span class="badge badge-state">${p.location}</span>
-        ${p.conservation_easement === 'unknown' ? '<span class="badge badge-ce-unknown">⚠️ CE status unconfirmed</span>' : ''}
-      </div>
-      <div class="card-details">
-        <span>📐 ${(p.acres||0).toLocaleString()} ac</span>
-        <span>💧 ${p.water_features || 'none'}</span>
-        <span>🏢 ${p.source || ''}</span>
-      </div>
-      <div class="card-footer">
-        <div class="days-on-market ${domClass(p.days_on_market)}">${domLabel(p.days_on_market)}</div>
-        <a href="${p.url}" target="_blank" class="btn-link" onclick="event.stopPropagation()">View →</a>
-      </div>
-      ${p.notes ? `<div class="card-notes">${p.notes}</div>` : ''}
     </div>
   `).join('');
 
   props.forEach(p => {
     const marker = L.marker([p.lat, p.lng], { icon: makeIcon(p.land_type, ceVal(p)) })
-      .addTo(map)
       .bindPopup(`
-        <div class="popup-address">${p.name}</div>
-        <div class="popup-price">${formatPrice(p.price_usd)} <span style="font-weight:400;font-size:11px;color:var(--text-secondary)">($${Math.round(p.price_per_acre).toLocaleString()}/ac)</span></div>
-        <div class="popup-meta">
-          ${(p.acres||0).toLocaleString()} acres · ${p.land_type}<br>
-          ${p.location}<br>
-          ${domLabel(p.days_on_market)}
+        <img class="popup-photo" src="${p.image_url}" onerror="this.style.display='none'">
+        <div class="popup-inner">
+          <div class="popup-address">${p.name}</div>
+          <div class="popup-price">${formatPrice(p.price_usd)} <span style="font-weight:400;font-size:11px;color:var(--text-secondary)">($${Math.round(p.price_per_acre).toLocaleString()}/ac)</span></div>
+          <div class="popup-meta">
+            ${(p.acres||0).toLocaleString()} acres · ${p.land_type}<br>
+            ${p.location}<br>
+            ${domLabel(p.days_on_market)}
+          </div>
+          <div class="popup-amenities">${amenityChips(p, false)}</div>
+          ${ceVal(p) ? `<div class="popup-ce">🔒 Under conservation easement${p.conservation_easement_notes ? ': ' + p.conservation_easement_notes : ''}</div>` : ''}
+          ${p.notes ? `<div class="popup-meta" style="margin-top:4px;font-style:italic">${p.notes}</div>` : ''}
+          <a href="${p.url}" target="_blank" class="popup-link">View listing →</a>
         </div>
-        ${ceVal(p) ? `<div class="popup-ce">🔒 Under conservation easement${p.conservation_easement_notes ? ': ' + p.conservation_easement_notes : ''}</div>` : ''}
-        ${p.notes ? `<div class="popup-meta" style="margin-top:4px;font-style:italic">${p.notes}</div>` : ''}
-        <a href="${p.url}" target="_blank" class="popup-link">View listing →</a>
       `);
     marker.on('click', () => selectProperty(p.id));
-    markers[p.id] = marker;
+    markerRefs[p.id] = marker;
+    markerCluster.addLayer(marker);
   });
 }
 
@@ -465,8 +597,23 @@ function selectProperty(id) {
   document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
   const card = document.getElementById('card-' + id);
   if (card) { card.classList.add('active'); card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
-  const marker = markers[id];
-  if (marker) { map.panTo(marker.getLatLng()); marker.openPopup(); }
+  const marker = markerRefs[id];
+  if (marker) {
+    map.setView(marker.getLatLng(), Math.max(map.getZoom(), 9));
+    markerCluster.zoomToShowLayer(marker, () => marker.openPopup());
+  }
+}
+
+function populateAmenityFilter() {
+  const sel = document.getElementById('filter-amenity');
+  const seen = new Map();
+  PROPERTIES.forEach(p => (p.amenities||[]).forEach(a => seen.set(a.label, a.icon)));
+  [...seen.entries()].sort().forEach(([label, icon]) => {
+    const opt = document.createElement('option');
+    opt.value = label;
+    opt.textContent = icon + ' ' + label;
+    sel.appendChild(opt);
+  });
 }
 
 function applyFilters() {
@@ -474,6 +621,7 @@ function applyFilters() {
   const minAcres = parseInt(document.getElementById('filter-acres').value) || 0;
   const maxPrice = parseInt(document.getElementById('filter-price').value) || Infinity;
   const ce = document.getElementById('filter-ce').value;
+  const amenity = document.getElementById('filter-amenity').value;
   const sort = document.getElementById('filter-sort').value;
 
   let filtered = PROPERTIES.filter(p => {
@@ -482,6 +630,7 @@ function applyFilters() {
     if (p.price_usd > maxPrice) return false;
     if (ce === 'yes' && !ceVal(p)) return false;
     if (ce === 'no' && ceVal(p)) return false;
+    if (amenity && !(p.amenities||[]).some(a => a.label === amenity)) return false;
     return true;
   });
 
@@ -489,12 +638,11 @@ function applyFilters() {
   else if (sort === 'price-desc') filtered.sort((a, b) => b.price_usd - a.price_usd);
   else if (sort === 'acres-desc') filtered.sort((a, b) => (b.acres||0) - (a.acres||0));
   else if (sort === 'ppa-asc') filtered.sort((a, b) => (a.price_per_acre||0) - (b.price_per_acre||0));
-  else filtered.sort((a, b) => (b.date_added||'').localeCompare(a.date_added||'')); // newest
+  else filtered.sort((a, b) => (b.date_added||'').localeCompare(a.date_added||''));
 
   renderAll(filtered);
 }
 
-// Load listings from listings-db.json (source of truth, updated by the daily cron)
 fetch('listings-db.json?_=' + Date.now())
   .then(r => r.json())
   .then(data => {
@@ -503,6 +651,7 @@ fetch('listings-db.json?_=' + Date.now())
       ? new Date(data.lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
       : null;
     document.getElementById('stat-updated').textContent = lastUpdated ? 'Updated ' + lastUpdated : '—';
+    populateAmenityFilter();
     applyFilters();
   })
   .catch(err => {
