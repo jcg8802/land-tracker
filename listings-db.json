@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:00:00Z",
+  "lastUpdated": "2026-11-22T14:04:21Z",
   "listings": {
     "1": {
       "name": "Tongue River Valley Ranch",
@@ -16,13 +16,13 @@
       "mineral_rights": "not specified",
       "conservation_easement": "unknown",
       "conservation_easement_notes": "No mention of easement found; status unconfirmed",
-      "notes": "23,237± total acres (13,757± deeded + BLM/State/private leases). Native grass, regenerative grazing, diverse wildlife. One of the largest contiguous ranches on the MT market.",
+      "notes": "23,237\u00b1 total acres (13,757\u00b1 deeded + BLM/State/private leases). Native grass, regenerative grazing, diverse wildlife. One of the largest contiguous ranches on the MT market.",
       "id": "1",
       "price_per_acre": 989.8,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -50,23 +50,23 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "💦",
+          "icon": "\ud83d\udca6",
           "label": "Irrigation"
         },
         {
-          "icon": "🎣",
+          "icon": "\ud83c\udfa3",
           "label": "Fishing"
         },
         {
-          "icon": "💎",
+          "icon": "\ud83d\udc8e",
           "label": "Mineral rights"
         }
       ],
@@ -94,11 +94,11 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -120,13 +120,13 @@
       "mineral_rights": "not specified",
       "conservation_easement": "unknown",
       "conservation_easement_notes": "No easement mentioned; unconfirmed",
-      "notes": "22,657± total acres (17,223± deeded + BLM/State lease), 44 mi NW of Laramie. Rated for 850+ cow-calf pairs.",
+      "notes": "22,657\u00b1 total acres (17,223\u00b1 deeded + BLM/State lease), 44 mi NW of Laramie. Rated for 850+ cow-calf pairs.",
       "id": "4",
       "price_per_acre": 580.62,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "💦",
+          "icon": "\ud83d\udca6",
           "label": "Irrigation"
         }
       ],
@@ -148,13 +148,13 @@
       "mineral_rights": "not specified",
       "conservation_easement": "unknown",
       "conservation_easement_notes": "No easement mentioned; unconfirmed",
-      "notes": "~11,630 total acres (4,374± deeded + BLM/State lease) in south-central NM. Year-round cattle allotment and wildlife habitat.",
+      "notes": "~11,630 total acres (4,374\u00b1 deeded + BLM/State lease) in south-central NM. Year-round cattle allotment and wildlife habitat.",
       "id": "5",
       "price_per_acre": 257.95,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -175,26 +175,26 @@
       "water_features": "25+ miles of creeks, ~1 mile Pecos River frontage",
       "mineral_rights": "not specified",
       "conservation_easement": false,
-      "conservation_easement_notes": "Marketed explicitly as 'unrestricted' — buyers can build/farm/camp freely",
+      "conservation_easement_notes": "Marketed explicitly as 'unrestricted' \u2014 buyers can build/farm/camp freely",
       "notes": "Largest ranch currently for sale in New Mexico (73,600 acres). 4BR/4BA residence, guest cottages, historic saloon. Up to ~1,200 cow-calf pairs; pronghorn/mule deer/waterfowl hunting.",
       "id": "6",
       "price_per_acre": 478.26,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "House/lodge"
         },
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -216,21 +216,21 @@
       "mineral_rights": "not specified",
       "conservation_easement": "unknown",
       "conservation_easement_notes": "No easement mentioned; unconfirmed",
-      "notes": "18,643± deeded-acre secured timber/hunting ranch, dense timber stands, no-trespassing private block near Dayville/Kimberly, OR.",
+      "notes": "18,643\u00b1 deeded-acre secured timber/hunting ranch, dense timber stands, no-trespassing private block near Dayville/Kimberly, OR.",
       "id": "7",
       "price_per_acre": 1877.38,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -258,19 +258,19 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "💧",
+          "icon": "\ud83d\udca7",
           "label": "Lake"
         },
         {
-          "icon": "💦",
+          "icon": "\ud83d\udca6",
           "label": "Irrigation"
         },
         {
-          "icon": "🎣",
+          "icon": "\ud83c\udfa3",
           "label": "Fishing"
         }
       ],
@@ -298,23 +298,23 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "House/lodge"
         },
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "⛰️",
+          "icon": "\u26f0\ufe0f",
           "label": "Mountain/views"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         },
         {
-          "icon": "🎣",
+          "icon": "\ud83c\udfa3",
           "label": "Fishing"
         }
       ],
@@ -332,7 +332,7 @@
       "source": "LandWatch",
       "url": "https://www.landwatch.com/idaho-land-for-sale/prop-types-2052",
       "days_on_market": null,
-      "water_features": "Henry's Fork of the Snake River — world-renowned fly-fishing corridor",
+      "water_features": "Henry's Fork of the Snake River \u2014 world-renowned fly-fishing corridor",
       "mineral_rights": "not specified",
       "conservation_easement": "unknown",
       "conservation_easement_notes": "No easement mentioned; unconfirmed",
@@ -342,19 +342,19 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         },
         {
-          "icon": "💦",
+          "icon": "\ud83d\udca6",
           "label": "Irrigation"
         },
         {
-          "icon": "🎣",
+          "icon": "\ud83c\udfa3",
           "label": "Fishing"
         }
       ],
@@ -382,11 +382,11 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "⛰️",
+          "icon": "\u26f0\ufe0f",
           "label": "Mountain/views"
         }
       ],
@@ -414,19 +414,19 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "🪷",
+          "icon": "\ud83e\udeb7",
           "label": "Pond"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         },
         {
-          "icon": "🐄",
+          "icon": "\ud83d\udc04",
           "label": "Livestock infrastructure"
         }
       ],
@@ -454,11 +454,11 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -480,29 +480,29 @@
       "mineral_rights": "not specified",
       "conservation_easement": false,
       "conservation_easement_notes": "No easement mentioned; described as unrestricted for timber harvest/development",
-      "notes": "887± ac planted pine + 350± ac hardwoods near Lake Oconee, 20 min from I-20. Legacy/timber-income tract, no residence.",
+      "notes": "887\u00b1 ac planted pine + 350\u00b1 ac hardwoods near Lake Oconee, 20 min from I-20. Legacy/timber-income tract, no residence.",
       "id": "14",
       "price_per_acre": 4750.13,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "House/lodge"
         },
         {
-          "icon": "💧",
+          "icon": "\ud83d\udca7",
           "label": "Lake"
         },
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "🪷",
+          "icon": "\ud83e\udeb7",
           "label": "Pond"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         }
       ],
@@ -524,25 +524,25 @@
       "mineral_rights": "not specified",
       "conservation_easement": false,
       "conservation_easement_notes": "No easement mentioned; emphasizes current/future timber harvest value",
-      "notes": "1,870± acres mixed pine/hardwoods near Franklin, GA, established food plots, strong wildlife habitat.",
+      "notes": "1,870\u00b1 acres mixed pine/hardwoods near Franklin, GA, established food plots, strong wildlife habitat.",
       "id": "15",
       "price_per_acre": 3200.0,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "🪷",
+          "icon": "\ud83e\udeb7",
           "label": "Pond"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -570,15 +570,15 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -600,21 +600,21 @@
       "mineral_rights": "not specified",
       "conservation_easement": false,
       "conservation_easement_notes": "No easement mentioned; markets active game management/development with no stated restrictions",
-      "notes": "Turnkey 500± ac recreational retreat near Lexington, MS. 2,100 sqft lodge, caretaker home, 10 food plots, site of MS state-record buck.",
+      "notes": "Turnkey 500\u00b1 ac recreational retreat near Lexington, MS. 2,100 sqft lodge, caretaker home, 10 food plots, site of MS state-record buck.",
       "id": "17",
       "price_per_acre": 4200.0,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "House/lodge"
         },
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "🪷",
+          "icon": "\ud83e\udeb7",
           "label": "Pond"
         }
       ],
@@ -636,13 +636,13 @@
       "mineral_rights": "not specified",
       "conservation_easement": false,
       "conservation_easement_notes": "No easement referenced; positioned as private legacy estate without noted restrictions",
-      "notes": "641± ac legacy property, pristine hardwoods, miles of creek frontage, turnkey cabins near Thomaston, easy reach of Atlanta.",
+      "notes": "641\u00b1 ac legacy property, pristine hardwoods, miles of creek frontage, turnkey cabins near Thomaston, easy reach of Atlanta.",
       "id": "18",
       "price_per_acre": 6630.27,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         }
       ],
@@ -670,7 +670,7 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         }
       ],
@@ -698,23 +698,23 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "House/lodge"
         },
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🪷",
+          "icon": "\ud83e\udeb7",
           "label": "Pond"
         },
         {
-          "icon": "💦",
+          "icon": "\ud83d\udca6",
           "label": "Irrigation"
         },
         {
-          "icon": "🐄",
+          "icon": "\ud83d\udc04",
           "label": "Livestock infrastructure"
         }
       ],
@@ -742,23 +742,23 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "💧",
+          "icon": "\ud83d\udca7",
           "label": "Lake"
         },
         {
-          "icon": "⛲",
+          "icon": "\u26f2",
           "label": "Spring"
         },
         {
-          "icon": "💦",
+          "icon": "\ud83d\udca6",
           "label": "Irrigation"
         },
         {
-          "icon": "✈️",
+          "icon": "\u2708\ufe0f",
           "label": "Airstrip/airport"
         }
       ],
@@ -786,27 +786,27 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "House/lodge"
         },
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         },
         {
-          "icon": "🐄",
+          "icon": "\ud83d\udc04",
           "label": "Livestock infrastructure"
         },
         {
-          "icon": "💎",
+          "icon": "\ud83d\udc8e",
           "label": "Mineral rights"
         }
       ],
@@ -834,19 +834,19 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Creek"
         },
         {
-          "icon": "🪷",
+          "icon": "\ud83e\udeb7",
           "label": "Pond"
         },
         {
-          "icon": "🐄",
+          "icon": "\ud83d\udc04",
           "label": "Livestock infrastructure"
         }
       ],
@@ -868,7 +868,7 @@
       "mineral_rights": "not specified",
       "conservation_easement": false,
       "conservation_easement_notes": "No easement mentioned; described only as productive tillable farmland, no development/subdivision restriction",
-      "notes": "609± ac southern Iowa farmland near Corydon — rare large cohesive tillable acreage block.",
+      "notes": "609\u00b1 ac southern Iowa farmland near Corydon \u2014 rare large cohesive tillable acreage block.",
       "id": "24",
       "price_per_acre": 7300.0,
       "date_added": "2026-11-20",
@@ -877,7 +877,7 @@
       "image_is_real": false
     },
     "25": {
-      "name": "369± Acres on Eau Claire River",
+      "name": "369\u00b1 Acres on Eau Claire River",
       "location": "Eau Claire County, Wisconsin",
       "lat": 44.68,
       "lng": -91.18,
@@ -897,15 +897,15 @@
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -926,26 +926,26 @@
       "water_features": "~2 mi waterfront along Ledge Pond and Kingdom Bog",
       "mineral_rights": "not specified",
       "conservation_easement": false,
-      "conservation_easement_notes": "Currently NOT under easement — listing flags a FUTURE possible 'conservation easement strategy' for a buyer, but confirms no existing restriction today",
+      "conservation_easement_notes": "Currently NOT under easement \u2014 listing flags a FUTURE possible 'conservation easement strategy' for a buyer, but confirms no existing restriction today",
       "notes": "First sale in 30 years. Well-stocked working forest (~$1.2M standing timber), active gravel pit, recreational cabin, operational sugarhouse near Belfast, ME.",
       "id": "26",
       "price_per_acre": 1884.06,
       "date_added": "2026-11-20",
       "amenities": [
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "House/lodge"
         },
         {
-          "icon": "🪷",
+          "icon": "\ud83e\udeb7",
           "label": "Pond"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "🏭",
+          "icon": "\ud83c\udfed",
           "label": "Working infrastructure"
         }
       ],
@@ -967,18 +967,18 @@
       "mineral_rights": "not specified",
       "conservation_easement": true,
       "conservation_easement_notes": "Listing confirms the ranch is protected by a Cattlemen's Association conservation easement, though three approved building envelopes plus a separate unencumbered 40-acre parcel remain for flexibility.",
-      "notes": "2,080± deeded acres on Beaver Mesa, 45 min from Telluride Mountain Village. Panoramic San Juan Mountains views, GMU 70 with trophy elk (300-350 class bulls) and mule deer vouchers, 1,408 sq ft cabin. Notable for combining scale, big-game hunting quality and proximity to a top resort town.",
+      "notes": "2,080\u00b1 deeded acres on Beaver Mesa, 45 min from Telluride Mountain Village. Panoramic San Juan Mountains views, GMU 70 with trophy elk (300-350 class bulls) and mule deer vouchers, 1,408 sq ft cabin. Notable for combining scale, big-game hunting quality and proximity to a top resort town.",
       "amenities": [
         {
-          "icon": "🏕️",
+          "icon": "\ud83c\udfd5\ufe0f",
           "label": "Mountain views"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         },
         {
-          "icon": "💦",
+          "icon": "\ud83d\udca6",
           "label": "Irrigation"
         }
       ],
@@ -1003,18 +1003,18 @@
       "mineral_rights": "Seller reserving legally decreed subsurface water rights; surface/mineral details not fully specified",
       "conservation_easement": false,
       "conservation_easement_notes": "Listing explicitly states the property is 'not encumbered by a conservation easement, preserving future flexibility for the next ownership.'",
-      "notes": "11,252± deeded acres plus 960± acres of CO State lease land, 60 miles from downtown Denver and 45 min from Centennial Airport. Well-blocked working cattle operation with 1971-built main residence, extensive corrals/barns, and strong antelope/mule deer/elk presence.",
+      "notes": "11,252\u00b1 deeded acres plus 960\u00b1 acres of CO State lease land, 60 miles from downtown Denver and 45 min from Centennial Airport. Well-blocked working cattle operation with 1971-built main residence, extensive corrals/barns, and strong antelope/mule deer/elk presence.",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         },
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "Improvements"
         }
       ],
@@ -1039,18 +1039,18 @@
       "mineral_rights": "not specified",
       "conservation_easement": true,
       "conservation_easement_notes": "Listing states 'the entire ranch is protected under a conservation easement, preserving its scenic and ecological integrity' and 'conservation easement in place' in the property facts.",
-      "notes": "1,793± deeded acres 3 miles west of Roundup, MT. Historic 1920 stone home formerly owned by Montana sheep baron Charles Bair, plus a secondary residence and stone barn. Notable for its history, well-managed rangeland/timber, and recently reduced price ($3.1M to $2.8M).",
+      "notes": "1,793\u00b1 deeded acres 3 miles west of Roundup, MT. Historic 1920 stone home formerly owned by Montana sheep baron Charles Bair, plus a secondary residence and stone barn. Notable for its history, well-managed rangeland/timber, and recently reduced price ($3.1M to $2.8M).",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "Improvements"
         }
       ],
@@ -1071,26 +1071,26 @@
       "source": "Fay Ranches",
       "url": "https://fayranches.com/property/spread-oaks-ranch-texas/",
       "days_on_market": null,
-      "water_features": "5.7± miles of Colorado River frontage, Blue Creek (1,443± acre-feet of water rights), Jennings Lake, stocked bass lakes, ~25 wells",
+      "water_features": "5.7\u00b1 miles of Colorado River frontage, Blue Creek (1,443\u00b1 acre-feet of water rights), Jennings Lake, stocked bass lakes, ~25 wells",
       "mineral_rights": "not specified",
       "conservation_easement": true,
       "conservation_easement_notes": "Listing states the property is 'protected by a conservation easement that permits continued agricultural and commercial use,' confirming an existing easement rather than a hypothetical one.",
-      "notes": "5,300± deeded acres along the Colorado River 90 min from Houston, at the apex of the Central Flyway. World-class managed waterfowl impoundments, high-fenced whitetail area (200+ B&C), Brangus cattle program, and a full sporting-estate lodge complex sleeping 32. One of the most complete trophy sporting/ag properties to hit the Gulf Coast market.",
+      "notes": "5,300\u00b1 deeded acres along the Colorado River 90 min from Houston, at the apex of the Central Flyway. World-class managed waterfowl impoundments, high-fenced whitetail area (200+ B&C), Brangus cattle program, and a full sporting-estate lodge complex sleeping 32. One of the most complete trophy sporting/ag properties to hit the Gulf Coast market.",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         },
         {
-          "icon": "🎣",
+          "icon": "\ud83c\udfa3",
           "label": "Fishing"
         },
         {
-          "icon": "🏠",
+          "icon": "\ud83c\udfe0",
           "label": "Improvements"
         }
       ],
@@ -1115,14 +1115,14 @@
       "mineral_rights": "not specified",
       "conservation_easement": "unknown",
       "conservation_easement_notes": "No mention of an easement, deed restriction, or 'unrestricted' language found in available listing materials; status cannot be confirmed either way.",
-      "notes": "1,066± contiguous acres of merchantable pine plantation in the southern Alabama pine belt, with a well-maintained internal road system supporting wet-weather logging. Straightforward timber investment with recent price reductions reported across listing sites.",
+      "notes": "1,066\u00b1 contiguous acres of merchantable pine plantation in the southern Alabama pine belt, with a well-maintained internal road system supporting wet-weather logging. Straightforward timber investment with recent price reductions reported across listing sites.",
       "amenities": [
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -1147,18 +1147,18 @@
       "mineral_rights": "not specified",
       "conservation_easement": "unknown",
       "conservation_easement_notes": "Listing notes APA Rural Use zoning but does not confirm an existing recorded conservation easement; status cannot be determined from available text.",
-      "notes": "1,437± acre single consolidated parcel in the northern Adirondacks with a private 25-foot waterfall and over two miles of a designated APA recreational river. Rare Northeast offering combining large contiguous acreage with a standout water feature at a relatively low basis (~$1,009/acre).",
+      "notes": "1,437\u00b1 acre single consolidated parcel in the northern Adirondacks with a private 25-foot waterfall and over two miles of a designated APA recreational river. Rare Northeast offering combining large contiguous acreage with a standout water feature at a relatively low basis (~$1,009/acre).",
       "amenities": [
         {
-          "icon": "🏞️",
+          "icon": "\ud83c\udfde\ufe0f",
           "label": "River"
         },
         {
-          "icon": "🌲",
+          "icon": "\ud83c\udf32",
           "label": "Timber/forest"
         },
         {
-          "icon": "🏹",
+          "icon": "\ud83c\udff9",
           "label": "Hunting/wildlife"
         }
       ],
@@ -1183,10 +1183,10 @@
       "mineral_rights": "not specified",
       "conservation_easement": "unknown",
       "conservation_easement_notes": "No conservation easement or deed restriction language found; listing focuses purely on irrigation/crop production, so status cannot be confirmed either way.",
-      "notes": "1,008± acres of productive irrigated farmland near Minden in south-central Nebraska, offered as 7 tracts. Dual well/surface water irrigation adds flexibility; open for the 2027 crop year so a buyer can operate it directly or install a tenant immediately.",
+      "notes": "1,008\u00b1 acres of productive irrigated farmland near Minden in south-central Nebraska, offered as 7 tracts. Dual well/surface water irrigation adds flexibility; open for the 2027 crop year so a buyer can operate it directly or install a tenant immediately.",
       "amenities": [
         {
-          "icon": "💦",
+          "icon": "\ud83d\udca6",
           "label": "Irrigation"
         }
       ],
@@ -1195,6 +1195,186 @@
       "id": "33",
       "price_per_acre": 9542.86,
       "date_added": "2026-11-21"
+    },
+    "34": {
+      "id": 34,
+      "name": "Custer Legacy Ranch",
+      "location": "Big Horn County, Montana",
+      "lat": 45.98,
+      "lng": -107.46,
+      "price_usd": 54000000,
+      "acres": 23500,
+      "price_per_acre": 2297.87,
+      "land_type": "ranch",
+      "source": "Hayden Outdoors / Land and Farm",
+      "url": "https://www.landandfarm.com/property/custer-legacy-ranch-37747959/",
+      "days_on_market": null,
+      "water_features": "Big Horn River frontage; extensive irrigation (8 center pivots, 8 wheel lines, flood irrigation across 1,100+/- acres)",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": "unknown",
+      "conservation_easement_notes": "No mention of easement status in listing materials reviewed; neither confirmed nor explicitly ruled out.",
+      "notes": "Self-sustaining 23,500+/- acre contiguous Montana ranch (plus 1,280-acre state lease) between I-94 and the Bighorn River, with four homes, full ranch infrastructure (shop, grain bins, feedlot), and first-class hunting for elk, deer and upland birds. One of the largest working ranches to hit the market this year.",
+      "date_added": "2026-11-22"
+    },
+    "35": {
+      "id": 35,
+      "name": "Over the Cliff Ranch",
+      "location": "Rosebud County, Montana",
+      "lat": 46.27,
+      "lng": -106.68,
+      "price_usd": 7400000,
+      "acres": 10047,
+      "price_per_acre": 736.54,
+      "land_type": "ranch",
+      "source": "Fay Ranches / LandWatch",
+      "url": "https://www.landwatch.com/rosebud-county-montana-farms-and-ranches-for-sale/pid/426438351",
+      "days_on_market": null,
+      "water_features": "Cottonwood Creek runs through the ranch; multiple reservoirs and extensive livestock water developments",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": "unknown",
+      "conservation_easement_notes": "Listing mentions buyer could pursue 'ranching, hunting, conservation' as future uses but does not state an existing conservation easement is in place; status not confirmed.",
+      "notes": "10,047+/- deeded acres (plus ~5,939 combined state/private/BLM lease acres) of eastern Montana working cattle ranch recently price-improved, with strong elk/mule deer/antelope habitat along the breaks. Long-time Gray family stewardship; one of the better per-acre values on the market in the region.",
+      "date_added": "2026-11-22"
+    },
+    "36": {
+      "id": 36,
+      "name": "Solomon River Game and Cattle Ranch",
+      "location": "Decatur & Sheridan County, Kansas",
+      "lat": 39.83,
+      "lng": -100.28,
+      "price_usd": 3750000,
+      "acres": 1320,
+      "price_per_acre": 2840.91,
+      "land_type": "recreational/hunting",
+      "source": "Mason & Morse Ranch Company (Ranchland.com)",
+      "url": "https://www.ranchland.com/ranches-for-sale/kansas/solomon-river-game-and-cattle-ranch-3801",
+      "days_on_market": null,
+      "water_features": "North Fork of the Solomon River runs through the property; 5 wells (electric/solar), 2+ miles underground pipe, 11 stock tanks, 2 catch ponds",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": "unknown",
+      "conservation_easement_notes": "No conservation easement referenced anywhere in listing or brochure; status not explicitly confirmed either way.",
+      "notes": "1,320+/- acre turnkey high-fence (880+/- acres under 8-ft fence) exotic/native game and cattle operation in northwest Kansas, with updated 4-bed farmhouse, barns, and river-bottom alfalfa ground. Active trophy whitetail/mule deer operation -- ready-made hunting business, not just raw land.",
+      "date_added": "2026-11-22"
+    },
+    "37": {
+      "id": 37,
+      "name": "Red Rock Ranch",
+      "location": "Noble County, Oklahoma",
+      "lat": 36.68,
+      "lng": -97.2,
+      "price_usd": 32500000,
+      "acres": 5395,
+      "price_per_acre": 6024.1,
+      "land_type": "ranch",
+      "source": "Hall and Hall",
+      "url": "https://hallhall.com/property-for-sale/oklahoma/red-rock-ranch/a09Nu00000HtB13/",
+      "days_on_market": null,
+      "water_features": "Bordered on three sides by ~9 miles of Arkansas River frontage; 22 ponds, 6 managed for trophy fishing",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": "unknown",
+      "conservation_easement_notes": "No conservation easement mentioned; listing emphasizes private ownership history (2 owners in 45 years) and managed trophy whitetail program but doesn't address easement status either way.",
+      "notes": "5,395+/- acre showcase Oklahoma ranch wrapped on three sides by the Arkansas River and reachable by only one public road -- exceptional privacy. Remodeled lodge compound, 45-year managed trophy whitetail program (archery bucks to 197in), working cattle/farm operation, and fiber internet. One of the standout trophy-ranch listings nationally right now.",
+      "date_added": "2026-11-22"
+    },
+    "38": {
+      "id": 38,
+      "name": "Eagle Rock Ranch",
+      "location": "Routt County, Colorado",
+      "lat": 40.15,
+      "lng": -106.92,
+      "price_usd": 26000000,
+      "acres": 744,
+      "price_per_acre": 34946.24,
+      "land_type": "mountain/mixed-use",
+      "source": "Hall and Hall",
+      "url": "https://hallhall.com/property-for-sale/colorado/eagle-rock-ranch/a09Nu0000089zKb/",
+      "days_on_market": null,
+      "water_features": "4 interconnected spring/stream-fed lakes totaling 26+/- surface acres, historic water rights dating to the late 1800s; trout fishing",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": "unknown",
+      "conservation_easement_notes": "No conservation easement referenced; ranch is bordered on 3 sides by Routt National Forest (3.25+/- miles shared boundary) but that is adjacency to public land, not an easement on the deeded acreage itself.",
+      "notes": "744+/- acre alpine sanctuary in the upper Wheeler Creek basin near Yampa, CO, anchored by historic spring-fed lakes, cabins and equestrian facilities, with 3+ miles of shared Routt National Forest boundary. End-of-road seclusion with year-round county road access, 32 miles from Steamboat Springs.",
+      "date_added": "2026-11-22"
+    },
+    "39": {
+      "id": 39,
+      "name": "Sidwell Hereford Ranch",
+      "location": "Weld County, Colorado",
+      "lat": 40.87,
+      "lng": -104.61,
+      "price_usd": 4750000,
+      "acres": 1779,
+      "price_per_acre": 2670.04,
+      "land_type": "ranch",
+      "source": "Hall and Hall",
+      "url": "https://hallhall.com/property-for-sale/colorado/sidwell-hereford-ranch/a09Nu00000792cr/",
+      "days_on_market": null,
+      "water_features": "Seasonal stream; associated domestic and agricultural water rights included",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": "unknown",
+      "conservation_easement_notes": "Listing repeatedly markets 'development potential' and sits in a fast-growing part of Weld County, which suggests no restrictive easement, but this is not explicitly confirmed in the materials -- kept as unknown rather than assumed.",
+      "notes": "Six-generation, 1,779+/- acre purebred Hereford cattle ranch on Highway 85 near Fort Collins/Cheyenne, with full working infrastructure (sale barn, shop, multiple barns) and a 2,804 sq ft ranch home. Price recently reduced from $4.95M; notable for both its agricultural pedigree and suburban-growth-corridor development upside.",
+      "date_added": "2026-11-22"
+    },
+    "40": {
+      "id": 40,
+      "name": "Ringgold County Iowa Farmland (1,110.9 Acres)",
+      "location": "Ringgold County, Iowa",
+      "lat": 40.72,
+      "lng": -94.23,
+      "price_usd": 11670080,
+      "acres": 1110.9,
+      "price_per_acre": 10505.07,
+      "land_type": "farmland",
+      "source": "Whitaker Marketing Group",
+      "url": "https://www.homes.com/mount-ayr-ia/acreage/",
+      "days_on_market": null,
+      "water_features": "not specified in listing",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": "unknown",
+      "conservation_easement_notes": "Listing text does not address conservation easement status; not confirmed either way.",
+      "notes": "1,110.9+/- acre contiguous Iowa farmland block near Mount Ayr marketed for scale, existing income, and built-in infrastructure -- a rare single large holding in a county where tracts over 500 acres almost never trade intact. Suited to an expanding operator or ag-capital investor seeking immediate cash flow.",
+      "date_added": "2026-11-22"
+    },
+    "41": {
+      "id": 41,
+      "name": "Alapaha River Tract",
+      "location": "Echols County, Georgia",
+      "lat": 30.68,
+      "lng": -83.0,
+      "price_usd": 3431705,
+      "acres": 859,
+      "price_per_acre": 3995.0,
+      "land_type": "timberland",
+      "source": "National Land Realty",
+      "url": "https://www.land.com/Georgia/all-land/501-1000-acres/",
+      "days_on_market": null,
+      "water_features": "Property is named for and situated near the Alapaha River; exact frontage footage not detailed in listing",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": "unknown",
+      "conservation_easement_notes": "No conservation easement mentioned in the listing description; status not confirmed.",
+      "notes": "859-acre South Georgia tract near Lake Park combining merchantable and pre-merchantable pine plantation (near- and long-term timber income) with hunting and recreational use. Currently in agricultural use with multiple potential future uses noted (timber, hunting, residential, investment).",
+      "date_added": "2026-11-22"
+    },
+    "42": {
+      "id": 42,
+      "name": "Claiborne/Hancock 1,500-Acre Tract",
+      "location": "Claiborne & Hancock County, Tennessee",
+      "lat": 36.53,
+      "lng": -83.45,
+      "price_usd": 9000000,
+      "acres": 1500,
+      "price_per_acre": 6000.0,
+      "land_type": "timberland",
+      "source": "Smalltown Hunting Properties & Real Estate",
+      "url": "https://www.landandfarm.com/property/claiborne-hancock-1500-41209832/",
+      "days_on_market": null,
+      "water_features": "Powell River borders part of the property; multiple natural springs feed ponds and the river; automatic waterers in several pastures",
+      "mineral_rights": "not specified in listing",
+      "conservation_easement": false,
+      "conservation_easement_notes": "Listing explicitly markets ~3 miles of road frontage and 'significant flexibility for future division or development,' which is inconsistent with an active conservation easement restricting subdivision; a generic 'conservation value' tag appeared only in a third-party site's navigation/category metadata, not in the actual broker description, so treated as not under easement.",
+      "notes": "1,500+/- acre mixed pasture/hayfield/timber tract in northeast Tennessee along the Powell River, fenced for ~300 head of cattle with abundant spring water. Marketed explicitly as a 'blank slate' with subdivision/development upside as well as cattle, timber and recreational value -- versatile positioning drives the premium $6,000/acre price.",
+      "date_added": "2026-11-22"
     }
   }
 }
